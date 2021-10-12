@@ -65,7 +65,7 @@ def dados():
 
     df = df.set_index ('Ano')
 
-    df = df.loc[leiaint ('\033[036mDigite o ano de referência do preço [1990/2016]:\033[m '):]
+    df = df.loc[leiaint ('\033[036mDigite o ano de referência do preço [1990/2020]:\033[m '):]
 
     # Regista numa variável o valor a calcular e valida a operação
     preco = leiafloat ('\033[036mDigite o valor inteiro ou decimal a calcular:\033[m ')
